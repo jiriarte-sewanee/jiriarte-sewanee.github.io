@@ -40,16 +40,16 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f4fafd;
+  --background-color: #d9d9d9;
   --surface-color: #ffffff;
 }
 
 .dark-background {
-  --background-color: #040b14;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --background-color: #1a1a1a;
+  --default-color: #f2f2f2;
+  --heading-color: #f2f2f2;
   --surface-color: #151f2b;
-  --contrast-color: #ffffff;
+  --contrast-color: #f2f2f2;
 }
 
 /* Smooth scroll */
@@ -512,7 +512,7 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   position: relative;
 }
 
@@ -576,9 +576,17 @@ section,
 }
 
 .hero h2 {
-  margin: 0;
-  font-size: 64px;
-  font-weight: 700;
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+	text-align: right;
+}
+
+.hero h3 {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 500;
+	text-align: right;
 }
 
 .hero p {
@@ -621,6 +629,11 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about {
+  width: 100%;
+  min-height: 100vh;
+}
+  
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
@@ -648,50 +661,27 @@ section,
   line-height: 0;
 }
 
+
 /*--------------------------------------------------------------
-# Stats Section
+# research Section
 --------------------------------------------------------------*/
-.stats .stats-item {
-  padding: 30px;
+.research {
   width: 100%;
+  min-height: 100vh;
 }
 
-.stats .stats-item i {
-  color: var(--accent-color);
-  display: block;
-  font-size: 44px;
-  float: left;
-  line-height: 0;
+.research .row {
+	margin-bottom: 20px;
 }
 
-.stats .stats-item .purecounter {
-  color: var(--heading-color);
-  font-size: 48px;
-  line-height: 40px;
-  display: block;
-  font-weight: 700;
-  margin-left: 60px;
-}
-
-.stats .stats-item p {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
-  font-family: var(--heading-font);
-  font-size: 14px;
-}
-
-/*--------------------------------------------------------------
-# Skills Section
---------------------------------------------------------------*/
-.skills .progress {
+.research .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
 }
 
-.skills .progress .skill {
+.research .progress .skill {
   color: var(--heading-color);
   padding: 0;
   margin: 0 0 6px 0;
@@ -701,17 +691,17 @@ section,
   font-family: var(--heading-font);
 }
 
-.skills .progress .skill .val {
+.research .progress .skill .val {
   float: right;
   font-style: normal;
 }
 
-.skills .progress-bar-wrap {
+.research .progress-bar-wrap {
   background: color-mix(in srgb, var(--default-color), transparent 90%);
   height: 10px;
 }
 
-.skills .progress-bar {
+.research .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
@@ -719,9 +709,34 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Resume Section
+# publications Section
 --------------------------------------------------------------*/
-.resume .resume-title {
+.publications {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.publications h4 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.publications h5 {
+  font-size: 17px;
+  margin-bottom: 5px;
+  color:dimgrey
+}
+
+.publications h6 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.publications .row {
+	margin-bottom: 15px;
+}
+.publications .publications-title {
   color: var(--heading-color);
   font-size: 26px;
   font-weight: 700;
@@ -729,14 +744,19 @@ section,
   margin-bottom: 20px;
 }
 
-.resume .resume-item {
-  padding: 0 0 20px 20px;
+.publications .publications-year-item {
+  border-left: 2px solid var(--accent-color);
+  position: relative;
+}
+
+.publications .publications-item {
+  padding: 0 0 10px 10px;
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
 }
 
-.resume .resume-item h4 {
+.publications .publications-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -745,7 +765,7 @@ section,
   margin-bottom: 10px;
 }
 
-.resume .resume-item h5 {
+.publications .publications-item h5 {
   font-size: 16px;
   padding: 5px 15px;
   display: inline-block;
@@ -753,19 +773,19 @@ section,
   margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
+.publications .publications-item ul {
   padding-left: 20px;
 }
 
-.resume .resume-item ul li {
+.publications .publications-item ul li {
   padding-bottom: 10px;
 }
 
-.resume .resume-item:last-child {
+.publications .publications-year-item::after {
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+.publications .publications-year-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -778,16 +798,29 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Section
+# people Section
 --------------------------------------------------------------*/
-.portfolio .portfolio-filters {
+.people {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.people-item {
+	margin-top: 20px;	
+}
+
+.people-image {
+	margin: 0px 40px 40px 0px;
+}
+
+.people .people-filters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio .portfolio-filters li {
+.people .people-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 0;
@@ -800,36 +833,35 @@ section,
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio .portfolio-filters li:hover,
-.portfolio .portfolio-filters li.filter-active {
+.people .people-filters li:hover,
+.people .people-filters li.filter-active {
   color: var(--accent-color);
 }
 
-.portfolio .portfolio-filters li:first-child {
+.people .people-filters li:first-child {
   margin-left: 0;
 }
 
-.portfolio .portfolio-filters li:last-child {
+.people .people-filters li:last-child {
   margin-right: 0;
 }
 
 @media (max-width: 575px) {
-  .portfolio .portfolio-filters li {
+  .people .people-filters li {
     font-size: 14px;
     margin: 0 5px;
   }
 }
 
-.portfolio .portfolio-content {
-  position: relative;
-  overflow: hidden;
+.people .people-content {
+  margin-bottom: 30px;
 }
 
-.portfolio .portfolio-content img {
+.people .people-content img {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-content .portfolio-info {
+.people .people-content .people-info {
   opacity: 0;
   position: absolute;
   inset: 0;
@@ -839,7 +871,7 @@ section,
   padding: 15px;
 }
 
-.portfolio .portfolio-content .portfolio-info h4 {
+.people .people-content .people-info h4 {
   font-size: 14px;
   padding: 5px 10px;
   font-weight: 400;
@@ -848,7 +880,7 @@ section,
   background-color: var(--accent-color);
 }
 
-.portfolio .portfolio-content .portfolio-info p {
+.people .people-content .people-info p {
   position: absolute;
   bottom: 10px;
   text-align: center;
@@ -860,8 +892,8 @@ section,
   color: rgba(255, 255, 255, 0.8);
 }
 
-.portfolio .portfolio-content .portfolio-info .preview-link,
-.portfolio .portfolio-content .portfolio-info .details-link {
+.people .people-content .people-info .preview-link,
+.people .people-content .people-info .details-link {
   position: absolute;
   left: calc(50% - 40px);
   font-size: 26px;
@@ -871,33 +903,38 @@ section,
   line-height: 1.2;
 }
 
-.portfolio .portfolio-content .portfolio-info .preview-link:hover,
-.portfolio .portfolio-content .portfolio-info .details-link:hover {
+.people .people-content .people-info .preview-link:hover,
+.people .people-content .people-info .details-link:hover {
   color: var(--accent-color);
 }
 
-.portfolio .portfolio-content .portfolio-info .details-link {
+.people .people-content .people-info .details-link {
   left: 50%;
   font-size: 34px;
   line-height: 0;
 }
 
-.portfolio .portfolio-content:hover .portfolio-info {
+.people .people-content:hover .people-info {
   opacity: 1;
 }
 
-.portfolio .portfolio-content:hover img {
+.people .people-content:hover img {
   transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# videos Section
 --------------------------------------------------------------*/
-.services .service-item {
+.videos {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.videos .videos-item {
   position: relative;
 }
 
-.services .service-item .icon {
+.videos .videos-item .icon {
   background: var(--accent-color);
   display: flex;
   align-items: center;
@@ -910,156 +947,57 @@ section,
   margin-right: 20px;
 }
 
-.services .service-item .icon i {
+.videos .videos-item .icon i {
   color: var(--contrast-color);
   font-size: 24px;
   line-height: 0;
 }
 
-.services .service-item:hover .icon {
+.videos .videos-item:hover .icon {
   background: var(--surface-color);
 }
 
-.services .service-item:hover .icon i {
+.videos .videos-item:hover .icon i {
   color: var(--accent-color);
 }
 
-.services .service-item .title {
+.videos .videos-item .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .service-item .title a {
+.videos .videos-item .title a {
   color: var(--heading-color);
 }
 
-.services .service-item .title a:hover {
+.videos .videos-item .title a:hover {
   color: var(--accent-color);
 }
 
-.services .service-item .description {
+.videos .videos-item .description {
   line-height: 24px;
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
-.testimonials .testimonials-slider {
-  overflow: hidden;
-}
-
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  text-align: center;
-  min-height: 320px;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin: 0;
-}
-
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, var(--accent-color), transparent 40%);
-  font-size: 26px;
-  line-height: 0;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-  transform: scale(-1, -1);
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 15px 15px 15px;
-  padding: 20px;
-  background-color: var(--surface-color);
-  position: relative;
-  margin-bottom: 35px;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.testimonials .testimonial-item p::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 20px solid var(--surface-color);
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
-  position: absolute;
-  bottom: -20px;
-  left: calc(50% - 20px);
-}
-
-.testimonials .swiper-wrapper {
-  height: auto;
-}
-
-.testimonials .swiper-pagination {
-  margin-top: 40px;
-  position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: var(--background-color);
-  opacity: 1;
-  border: 1px solid var(--accent-color);
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
+.videos .row{
+	margin-bottom: 40px;
+	text-align: right;
 }
 
 /*--------------------------------------------------------------
-# Contact Section
+# software Section
 --------------------------------------------------------------*/
-.contact .info-wrap {
-  background-color: var(--surface-color);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+.software {
+  width: 100%;
+  min-height: 100vh;
 }
 
-@media (max-width: 575px) {
-  .contact .info-wrap {
-    padding: 20px;
-  }
+.software .software-image {
+  margin-bottom: 20px;
 }
 
-.contact .info-item {
-  margin-bottom: 40px;
-}
-
-.contact .info-item i {
+.software .software-item i {
   font-size: 20px;
   color: var(--accent-color);
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
@@ -1073,103 +1011,56 @@ section,
   margin-right: 15px;
 }
 
-.contact .info-item h3 {
+.software .software-item h4 {
   padding: 0;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 5px;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
-.contact .info-item p {
-  padding: 0;
-  margin-bottom: 0;
-  font-size: 14px;
+.software .software-item h6 {
+  margin-bottom: 30px;
+  font-size: 16px;
 }
 
-.contact .info-item:hover i {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-}
 
-.contact .php-email-form {
-  background-color: var(--surface-color);
-  height: 100%;
-  padding: 30px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 575px) {
-  .contact .php-email-form {
-    padding: 20px;
-  }
-}
-
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: var(--surface-color);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-}
-
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--accent-color);
-}
-
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.contact .php-email-form button[type=submit] {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
-  padding: 10px 30px;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 25%);
+/*--------------------------------------------------------------
+# Links Section
+--------------------------------------------------------------*/
+.links {
+  width: 100%;
+  min-height: 100vh;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details Section
+# people Details Section
 --------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
+.people-details .people-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.people-details .people-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.people-details .people-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.people-details .people-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
-.portfolio-details .portfolio-info {
+.people-details .people-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-details .portfolio-info h3 {
+.people-details .people-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1177,41 +1068,41 @@ section,
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
-.portfolio-details .portfolio-info ul {
+.people-details .people-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.people-details .people-info ul li+li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.people-details .people-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.people-details .people-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.people-details .people-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
 /*--------------------------------------------------------------
-# Service Details Section
+# videos Details Section
 --------------------------------------------------------------*/
-.service-details .services-list {
+.videos-details .videos-list {
   padding: 10px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   margin-bottom: 20px;
 }
 
-.service-details .services-list a {
+.videos-details .videos-list a {
   display: block;
   line-height: 1;
   padding: 8px 0 8px 15px;
@@ -1221,47 +1112,47 @@ section,
   transition: 0.3s;
 }
 
-.service-details .services-list a.active {
+.videos-details .videos-list a.active {
   color: var(--heading-color);
   font-weight: 700;
   border-color: var(--accent-color);
 }
 
-.service-details .services-list a:hover {
+.videos-details .videos-list a:hover {
   border-color: var(--accent-color);
 }
 
-.service-details .services-img {
+.videos-details .videos-img {
   margin-bottom: 20px;
 }
 
-.service-details h3 {
+.videos-details h3 {
   font-size: 26px;
   font-weight: 700;
 }
 
-.service-details h4 {
+.videos-details h4 {
   font-size: 20px;
   font-weight: 700;
 }
 
-.service-details p {
+.videos-details p {
   font-size: 15px;
 }
 
-.service-details ul {
+.videos-details ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.service-details ul li {
+.videos-details ul li {
   padding: 5px 0;
   display: flex;
   align-items: center;
 }
 
-.service-details ul i {
+.videos-details ul i {
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
