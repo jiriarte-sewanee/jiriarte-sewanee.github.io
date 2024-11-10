@@ -1,0 +1,4 @@
+Sitemap: https://jiriarte-sewanee.github.io/sitemap.xml
+
+User-agent: *
+Disallow:
