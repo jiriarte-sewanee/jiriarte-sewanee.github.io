@@ -1,167 +1,154 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://jiriarte-sewanee.github.io/</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://jiriarte-sewanee.github.io/</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/index.html</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/index.html</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2023%20PTRS%202.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2023%20PTRS%201.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2023%20PTRS%201.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2023%20AJBA.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2023%20AJBA.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2021%20Cretaceous%20Research.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2021%20Cretaceous%20Research.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2020%20Acta%20Biomaterialia.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2020%20Acta%20Biomaterialia.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2020%20J%20Human%20Evol.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2020%20J%20Human%20Evol.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2020%20J%20Human%20Evol%20-%20correction.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2020%20J%20Human%20Evol%20-%20correction.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2020%20-%20Bull%20Tokyo%20Dent%20Coll.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2020%20-%20Bull%20Tokyo%20Dent%20Coll.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2019%20Ross%20&amp;%20Iriarte-Diaz_Chapter.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2019%20Ross%20&amp;%20Iriarte-Diaz_Chapter.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2019%20-%20Journal%20of%20Neural%20Engineering.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2019%20-%20Journal%20of%20Neural%20Engineering.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2017%20-%20Zoology%20-%20Editorial.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2017%20-%20Zoology%20-%20Editorial.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2017%20-%20Zoology%20-%20Panagiotopoulou%20et%20al.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2017%20-%20Zoology%20-%20Panagiotopoulou%20et%20al.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2017%20-%20Zoology%20-%20Iriarte-Diaz%20et%20al.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2017%20-%20Zoology%20-%20Iriarte-Diaz%20et%20al.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2017%20-%20Dysphagia.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2017%20-%20Dysphagia.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2017%20-%20Journal%20of%20Human%20Evolution.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2017%20-%20Journal%20of%20Human%20Evolution.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2016%20J%20Human%20Evol.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2016%20J%20Human%20Evol.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2016%20Evolution%20&amp;%20Development.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2016%20Evolution%20&amp;%20Development.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2014%20Evol%20Anthrop.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2014%20Evol%20Anthrop.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2012%20Int%20J%20Primat.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2012%20Int%20J%20Primat.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2012%20J%20Theor%20Biol.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2012%20J%20Theor%20Biol.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2012%20Bat%20Book%20chapter.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2012%20Bat%20Book%20chapter.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2011%20-%20bats%20book%20chapter.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2011%20-%20bats%20book%20chapter.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2008%20J%20Theor%20Biol.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2008%20J%20Theor%20Biol.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2006%20Bioinsp%20Biomim.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2006%20Bioinsp%20Biomim.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2005%20actachiropterologica.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2005%20actachiropterologica.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2005%20Rev%20Chil%20Hist%20Nat.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2005%20Rev%20Chil%20Hist%20Nat.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2003%20Mamm%20Biol.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2003%20Mamm%20Biol.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2002%20ActaTherio.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2002%20ActaTherio.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jiriarte-sewanee.github.io/assets/papers/2001%20Rev%20Chil%20Hist%20Nat.pdf</loc>
+	<lastmod>2024-11-10T19:16:22+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
-<url>
-  <loc>https://jiriarte-sewanee.github.io/assets/papers/2001%20Rev%20Chil%20Hist%20Nat.pdf</loc>
-  <lastmod>2024-11-07T17:44:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
 </urlset>
