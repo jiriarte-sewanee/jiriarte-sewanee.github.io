@@ -717,20 +717,20 @@ section,
 }
 
 .publications h4 {
-  font-size: 18px;
-  font-weight: 800;
-  margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
 
 .publications h5 {
-  font-size: 17px;
-  margin-bottom: 5px;
-  color:dimgrey
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: dimgrey
 }
 
 .publications h6 {
-  font-size: 17px;
-  margin-bottom: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
 }
 
 .publications .row {
